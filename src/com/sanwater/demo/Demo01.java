@@ -17,6 +17,8 @@ public class Demo01 {
             users.add(pp);
         });
 
+        System.out.println("dsadas");
+
         for (int i = 0; i < users.size(); i++) {
             users.get(i).setAge(age.get(i));
         }
